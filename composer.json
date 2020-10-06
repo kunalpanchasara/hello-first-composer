@@ -1,0 +1,11 @@
+{
+    "name": "kp/firstpackage",
+    "description": "This is test composer package learning",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {"kp\\HelloWorld\\": "src/"}
+    }
+}
